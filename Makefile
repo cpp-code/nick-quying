@@ -1,8 +1,8 @@
 CFLAGS = -Wall -Werror
 
-all: frsit
+all: frist
 
-frsit: regular-expression.cc
+frist: regular-expression.cc
 	g++ $^ -o $@ $(CFLAGS)
 
 check:
