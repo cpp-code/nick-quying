@@ -12,4 +12,4 @@ distcheck:
 	@echo
 
 clean: 
-	@rm -vf frsit
+	@rm -vf frist
