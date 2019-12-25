@@ -12,7 +12,7 @@ distcheck:
 	@echo
 
 clean: 
-	@rm -rf frsit
+	@rm -vf frsit
 
 
 
