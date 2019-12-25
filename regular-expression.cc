@@ -8,7 +8,7 @@ int main(int argc, char *argv[]) {
     regex re("https://[\\w.]+/(\\w+)-(\\w+)");
     smatch s;
 
-    for (int i = 0; i < int(sizeof(str)/sizeof(str[0])); i++) {
+    for (int i = 0; i < int(sizeof(str) / sizeof(str[0])); i++) {
         if (regex_search(str[i], s, re)) {
             cout << "Url: " << s[0] << endl;
             cout << "Englishname: " << s[1] << endl;
