@@ -13,7 +13,3 @@ distcheck:
 
 clean: 
 	@rm -vf frsit
-
-
-
-
