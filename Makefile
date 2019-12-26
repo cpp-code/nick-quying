@@ -6,10 +6,10 @@ frist: regular-expression.cc
 	g++ $^ -o $@ $(CFLAGS)
 
 second: variable-arguments.c
-	g++ $^ -o $@ $(CFLAGS)
+	gcc $^ -o $@ $(CFLAGS)
 
 third: date-and-time.c
-	g++ $^ -o $@ $(CFLAGS)
+	gcc $^ -o $@ $(CFLAGS)
 
 check:
 	@echo
