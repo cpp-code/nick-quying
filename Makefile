@@ -1,12 +1,15 @@
 CFLAGS = -Wall -Werror
 
-all: frist second
+all: frist second third
 
 frist: regular-expression.cc 
 	g++ $^ -o $@ $(CFLAGS)
 
 second: variable-arguments.c
-	g++ $^ -o $@ $(CFLAGS)
+	gcc $^ -o $@ $(CFLAGS)
+
+third: date-and-time.c
+	gcc $^ -o $@ $(CFLAGS)
 
 check:
 	@echo
@@ -15,4 +18,4 @@ distcheck:
 	@echo
 :
 clean: 							
-	@rm -vf frist second		
+	@rm -vf frist second third		
