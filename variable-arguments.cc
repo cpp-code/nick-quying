@@ -15,6 +15,8 @@ void variable_arguments(const char *format, ...)
         }
         format++;
     }
+    
+    va_end(args);
 }  
 
 int main(int argc,char *argv[]) {
