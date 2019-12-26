@@ -5,7 +5,7 @@ all: frist second
 frist: regular-expression.cc 
 	g++ $^ -o $@ $(CFLAGS)
 
-second: variable-arguments.cc
+second: variable-arguments.c
 	g++ $^ -o $@ $(CFLAGS)
 
 check:
