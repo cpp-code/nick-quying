@@ -15,4 +15,4 @@ distcheck:
 	@echo
 :
 clean: 							
-	@rm -vf frsit second		
+	@rm -vf frist second		
